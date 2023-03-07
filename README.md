@@ -77,7 +77,7 @@ This method allows you to retrieve all keys in the Keychain. The method returns 
 # KeychainWrapper
 In addition to the `KeychainService` class, this library provides a wrapper class called `KeychainWrapper`. The `KeychainWrapper` class provides a simpler interface for storing and retrieving data in the Keychain.
 
-## Usage
+## Usage 
 To use wrapper, declare a property using the @KeychainWrapper wrapper and specify the type of data to be stored/retrieved, along with a unique key:
 ```swift
 @KeychainWrapper(key: "mySensitiveData")
@@ -93,3 +93,5 @@ print(sensitiveData) // Optional("mySecretPassword")
 * `Bool`
 * `String`
 * `Data`
+
+### For more examples checkout `Sample` module in a package
